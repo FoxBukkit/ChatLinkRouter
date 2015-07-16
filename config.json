@@ -1,0 +1,26 @@
+{
+	"ServerToMe": [
+		{
+			"Type": "bind",
+			"Uri": "tcp://127.0.0.1:5556"
+		}
+	],
+	"MeToLink": [
+		{
+			"Type": "connect",
+			"Uri": "tcp://127.0.0.1:5557"
+		}
+	],
+	"LinkToMe": [
+		{
+			"Type": "connect",
+			"Uri": "tcp://127.0.0.1:5558"
+		}
+	],
+	"MeToServer": [
+		{
+			"Type": "bind",
+			"Uri": "tcp://127.0.0.1:5559"
+		}
+	]
+}
